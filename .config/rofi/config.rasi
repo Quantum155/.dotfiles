@@ -1,0 +1,9 @@
+@import "~/.cache/wal/colors-rofi-dark"
+
+element-text {
+ background-color: inherit;
+ text-color: inherit;
+}
+configuration {
+ font: "JetBrains Mono 12";
+}
