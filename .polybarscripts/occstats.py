@@ -33,6 +33,6 @@ while True:
     else:
         plcs = str(plc)
 
-    print(f"MAP: {active_map} [{playtime_hr}] PLAYERS:{status.players.online} [{plcs}]")
+    print(f"MAP: {active_map} [{playtime_hr}] PLAYERS: {status.players.online} [{plcs}]")
     sys.stdout.flush()
     sleep(QUERY_TIME)
